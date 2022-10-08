@@ -1,8 +1,6 @@
 ---
 layout: post
 title: SQL for a Full Stack Engineer (aka foreign keys with ActiveRecord)
-date: 2017-08-09 07:34:44.000000000 -04:00
-type: post
 categories:
 - weirich
 tags:
@@ -14,7 +12,6 @@ tags:
 - rails
 - ruby
 - sql
-permalink: "/2017/08/09/sql-for-a-full-stack-engineer-aka-constraints-with-activerecord/"
 ---
 Last time we focused on how the database layer is often forgotten by web engineers in their quest to build out the latest and greatest.  The problems that can arise from that mentality certainly aren't few, so we're going to talk about another today.
 Another common pitfall is the exclusion of foreign keys in a schema.  I'm sure any database-centric developers are cringing right now, but it happens to many of us.  There are many types of constraints that can be added to the database layer, but let's focus on just foreign keys.

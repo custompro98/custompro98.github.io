@@ -1,8 +1,6 @@
 ---
 layout: post
 title: EELK (aka ElasticSearch, ElastAlert, Logstash, Kibana)
-date: 2017-09-05 21:26:57.000000000 -04:00
-type: post
 categories:
 - weirich
 tags:
@@ -16,7 +14,6 @@ tags:
 - tutorial
 - walkthrough
 - yelp
-permalink: "/2017/09/05/eelk-aka-elasticsearch-elastalert-logstash-kibana/"
 ---
 Every project deserves security and log monitoring, but not every project can afford X-Pack.  X-Pack is Elastic's commercial companion to the open source ElasticSearch.  There's a two week free trial, but after that it's gonna cost $$$.  Luckily for us small fries, the folks at Yelp have open sourced their ElasticSearch powered alerting tool (aptly named [ElastAlert](https://github.com/Yelp/elastalert))
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: SQL for a Full Stack Engineer (aka ActiveRecord)
-date: 2017-08-02 07:50:54.000000000 -04:00
-type: post
 categories:
 - weirich
 tags:
@@ -11,7 +9,6 @@ tags:
 - rails
 - ruby
 - sql
-permalink: "/2017/08/02/sql-for-a-full-stack-engineer-aka-activerecord/"
 ---
 Many web applications are built by engineers without experience in at least one layer of the stack.  Unfortunately, it seems the database layer is that layer. But who needs to know how databases work when ActiveRecord abstracts away all of your data access logic, right?  I'm sure we've all heard that ActiveRecord is great for a small to midsize Rails project.  For the most part, this is true.  ActiveRecord handles all of our database calls and that means no more writing database adapters, no more looking directly at your table schema, and certainly no more writing queries for the most basic requests.  ActiveRecord turns writing a bunch of these
 ```sql

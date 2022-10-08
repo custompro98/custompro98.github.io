@@ -1,13 +1,10 @@
 ---
 layout: post
 title: CSS Float is Magic
-date: 2017-11-08 07:22:25.000000000 -05:00
-type: post
 categories:
 - weirich
 tags:
 - css
-permalink: "/2017/11/08/css-float-is-black-magic/"
 ---
 After adding the ability to view an application form in Footprints came making it look pretty.  With data in the database and the fields rendering with their answers came a `float: left` here and `float: right` there.  Everything looked like it was working.  There was a column on the left, the list of fields generally looked like a form, and all was good, right?
 

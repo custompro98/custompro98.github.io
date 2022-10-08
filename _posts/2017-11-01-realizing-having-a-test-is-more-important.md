@@ -1,13 +1,10 @@
 ---
 layout: post
 title: Realizing Having a Test is More Important
-date: 2017-11-01 07:45:35.000000000 -04:00
-type: post
 categories:
 - weirich
 tags:
 - testing rspec helper module controller test session dependency injection
-permalink: "/2017/11/01/realizing-having-a-test-is-more-important/"
 ---
 A few weeks back at work, I got around to using the venerable `SessionPersistenceHelper` which did a decent job abstracting away the work needed to persist checkbox selections in the session (aptly named, I'm surprised). All that's needed are a few business rule methods to be defined on your new controller (how many selections are allowed, what those selections are, how to count them, etc.) and thank-you-very-much that page now persists a user's checkbox selections. Easy enough. 
 

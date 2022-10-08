@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Why can't Array return my deleted selections?
-date: 2017-07-26 12:20:15.000000000 -04:00
-type: post
 categories:
 - weirich
 tags:
@@ -12,7 +10,6 @@ tags:
 - reject
 - ruby
 - select
-permalink: "/2017/07/26/why-cant-array-return-my-deleted-selections/"
 ---
 In Ruby, it's not uncommon (some would say it's common...they'd be right) to need to select from an array.  For example:
 ```ruby
