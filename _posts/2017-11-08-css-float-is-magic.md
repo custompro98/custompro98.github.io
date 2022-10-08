@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS Float is Black Magic
+title: CSS Float is Magic
 date: 2017-11-08 07:22:25.000000000 -05:00
 type: post
 categories:
