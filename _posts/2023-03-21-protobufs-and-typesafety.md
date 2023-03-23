@@ -2,12 +2,13 @@
 layout: post
 title: Protobufs and Typesafety
 categories:
-- typesafety
+- protobufs
 tags:
 - typesafety
 - protocol
 - buffer
 - protobuf
+- ai
 ---
 Protocol Buffers, also known as protobuf, is a method of serializing structured data that is used for communication between applications. It was developed by Google and is widely used in many of their internal systems. One of the key benefits of using protocol buffers is their efficiency, both in terms of network bandwidth and CPU usage. When combined with a typesafe language, there are even more benefits to using protocol buffers. In this blog post, we'll explore some of these benefits.
 
