@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Laravel
+title: Deploying Laravel
 categories:
 - laravel
 tags:
