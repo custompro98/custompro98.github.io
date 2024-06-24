@@ -22,6 +22,7 @@ _Note: this set of anecdotal instructions assumes you already have a cloud VM wi
 5. Git clone my repository into `/var/wwww/<application_name>`
 6. `cd /var/www/<application_name>` and run `sudo chown -R www-data:www-data ./database` and `sudo chown -R www-data:www-data ./storage`
 7. `sudo composer install` (note: it's probably better to not run this as sudo)
-8. Restart Caddy with `sudo service caddy reload`
-9. Configure a DNS A record to point at your (sub-)domain to the public IP address of your cloud VM
-10. Profit (just a figure of speech in this case)
+8. `sudo npm run build` (note: it's probably better to not run this as sudo)
+9. Restart Caddy with `sudo service caddy reload`
+10. Configure a DNS A record to point at your (sub-)domain to the public IP address of your cloud VM
+11. Profit (just a figure of speech in this case)
